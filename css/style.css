@@ -1,3 +1,6 @@
+
+
+
 /* Description: Master CSS file */
 
 /*****************************************
@@ -21,8 +24,8 @@ Table Of Contents:
 /*     General Styles     */
 /**************************/
 :root {
-	--primary: #1c262f;
-	--primary-light: #212d37;
+	--primary: #004953;
+	--primary-light:#004953;
 	--secondary: #0ee951;
 	--tertiary: #00dabf;
 	--gradient: linear-gradient(to right, #0ee951, #00dabf);
@@ -40,6 +43,11 @@ h6 {
 h1 {
 	font-size: 60px;
 	font-weight: 500;
+}
+h2{
+	font-size:35px ;
+	font-weight: 500;
+color: #eee;
 }
 
 button {
@@ -143,8 +151,8 @@ li {
 }
 
 .navbar .logo-image img {
-	width: 108px;
-	height: 32px;
+	width: 200px;
+	height: 70px;
 }
 
 .navbar .logo-text {
@@ -181,8 +189,9 @@ li {
 
 .navbar .dropdown-menu {
 	border: none;
-	margin-top: 0.25rem;
-	margin-bottom: 0.25rem;
+	margin-top: -2rem;
+	margin-left: 33rem;
+	margin-bottom: 0rem;
 	background-color: var(--primary);
 }
 
@@ -497,7 +506,23 @@ li {
 	}
 }
 
+.image {
+	display: flex;
+	align-items: center;
+  }
+  .image img {
+	margin-right: 10px;
+  }
 
+  #logo-carousel {
+	height: 10px; /* set the height of the carousel */
+  }
+  .carousel-item {
+	display: flex;
+	 /* center the logo horizontally */
+  }
+
+ 
 /**********************/
 /*     Newsletter     */
 /**********************/
@@ -719,3 +744,4 @@ li {
 		background-size: 22px 34px;
 	}
 }
+

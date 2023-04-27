@@ -18,12 +18,12 @@
 	<meta name="twitter:card" content="summary_large_image"> <!-- to have large image post format in Twitter -->
 
     <!-- Webpage Title -->
-    <title>Mirko - Broadband Company</title>
+    <title>WebCreintors - Potential Made Real</title>
 
     <!-- Styles -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
     <link href="./css/bootstrap.min.css" rel="stylesheet">
-    <link href="./css/fontawesome-all.min.css" rel="stylesheet">
+    <link href="./css/fontawesome-all.min.css" rel="stylesheet">    
     <link href="./css/aos.min.css" rel="stylesheet">
     <link href="./css/swiper.css" rel="stylesheet">
     <link href="./css/style.css" rel="stylesheet">
@@ -34,14 +34,14 @@
 <body>
     
     <!-- Navigation -->
-    <nav id="navbar" class="navbar navbar-expand-lg fixed-top navbar-dark" aria-label="Main navigation">
+    <nav id="navbar" class="navbar navbar-expand-lg fixed-top navbar-dark" aria-label="Main navigation"> 
         <div class="container">
 
             <!-- Image Logo -->
-            <!-- <a class="navbar-brand logo-image" href="index.html"><img src="images/logo.svg" alt="alternative"></a> -->
+            <a class="navbar-brand logo-image" href="index.html"><img src="../mirko/assets/images/LOGO 1 (2).png" alt="alternative"></a>
 
             <!-- Text Logo - Use this if you don't have a graphic logo -->
-            <a class="navbar-brand logo-text" href="index.html">Mirko</a>
+            <!--<a class="navbar-brand logo-text" href="index.html">WebCreintors</a> -->
 
             <button class="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -53,27 +53,32 @@
                         <a class="nav-link active" aria-current="page" href="#header">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
+					<a class="nav-link dropdown-toggle" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false" href="#">Company</a>
+						<ul class="dropdown-menu" aria-labelledby="dropdown01">
+                            <li><a class="dropdown-item" href="article.html">Abount Us</a></li>
+                            <li><div class="dropdown-divider"></div></li>
+                            <li><a class="dropdown-item" href="terms.html">History</a></li>
+                            <li><div class="dropdown-divider"></div></li>
+                            <li><a class="dropdown-item" href="privacy.html">Careers</a></li>
+                        </ul>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#services">Services</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#plans">Plans</a>
+                        <a class="nav-link" href="products.html">Products</a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false" href="#">Drop</a>
-                        
-                        <ul class="dropdown-menu" aria-labelledby="dropdown01">
-                            <li><a class="dropdown-item" href="article.html">Article Details</a></li>
-                            <li><div class="dropdown-divider"></div></li>
-                            <li><a class="dropdown-item" href="terms.html">Terms Conditions</a></li>
-                            <li><div class="dropdown-divider"></div></li>
-                            <li><a class="dropdown-item" href="privacy.html">Privacy Policy</a></li>
-                        </ul>
+					<li class="nav-item">
+                        <a class="nav-link" href="#plans">MLM Plans</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
+					<li class="nav-item">
+                        <a class="nav-link" href="#blogs">Blogs</a>
+                    </li>
+					<li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+					<li class="nav-item">
+                        <a class="nav-link" href="contact.php">Contact Us</a>
                     </li>
                 </ul>
                 <span class="nav-item social-icons">
@@ -99,16 +104,8 @@
     <!-- Home -->
     <section class="home py-5 d-flex align-items-center" id="header">
         <div class="container text-light py-5"  data-aos="fade-right"> 
-            <h1 class="headline">Best <span class="home_text">Broadband</span><br>Internet Plans For You</h1>
-            <p class="para para-light py-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus tempore accusamus quis magnam doloremque itaque ad modi, pariatur iste labore similique officiis impedit aspernatur aperiam facere architecto. Eligendi, repellendus inventore!</p>
-            <div class="d-flex align-items-center">
-                <p class="p-2"><i class="fas fa-laptop-house fa-lg"></i></p>
-                <p>Lorem ipsum dolor sit amet.</p>  
-            </div>
-            <div class="d-flex align-items-center">
-                <p class="p-2"><i class="fas fa-wifi fa-lg"></i></p>
-                <p>Lorem ipsum dolor sit amet.</p>  
-            </div>
+            <h1 class="headline">Welcome <span class="home_text">to</span><br>Webcreintors Tech Solution pvt.ltd</h1>
+            <p class="para para-light py-3">Expertise Web developement,Mobile Applications Development,MLM Softwares.</p>
             <div class="my-3">
                 <a class="btn" href="#plans">View Plans</a>
             </div>
@@ -122,18 +119,18 @@
             <div class="row text-light">
                 <div class="col-lg-4 text-center p-5" data-aos="zoom-in">
                     <i class="fas fa-tachometer-alt fa-3x p-2"></i>
-                    <h4 class="py-3">Download 1 GBPS</h4>
-                    <p class="para-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam odit consequatur doloribus natus in suscipit!</p>
+                    <h4 class="py-3">Internship and Projects</h4>
+                    <p class="para-light">We provide all final year students Internship and projects.</p>
                 </div>
                 <div class="col-lg-4 text-center p-5"  data-aos="zoom-in">
                     <i class="fas fa-clock fa-3x p-2"></i>
-                    <h4 class="py-3">99% Internet Uptime</h4>
-                    <p class="para-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam odit consequatur doloribus natus in suscipit!</p>
+                    <h4 class="py-3">Training</h4>
+                    <p class="para-light">We have latest software training section in our organisation.</p>
                 </div>
                 <div class="col-lg-4 text-center p-5 text-dark"  data-aos="zoom-in"> 
                     <i class="fas fa-headset fa-3x p-2"></i>
-                    <h4 class="py-3">24/7 Support </h4>
-                    <p class="para-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam odit consequatur doloribus natus in suscipit!</p>
+                    <h4 class="py-3">Software and Workshop</h4>
+                    <p class="para-light">Software application development is the process of designing, programming, documenting, testing, and maintaining applications involving databases. </p>
                 </div>
             </div>
         </div> <!-- end of container -->
@@ -146,10 +143,8 @@
             <div class="row d-flex align-items-center">
                 <div class="col-lg-7" data-aos="fade-right">
                     <p>ABOUT US</p>
-                    <h1>We are top internet <br> service company</h1>
-                    <p class="py-2 para-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non sed accusantium aut dolores inventore architecto modi cupiditate eligendi corporis, illum illo culpa. Reiciendis, molestias. Illum voluptatum quisquam ad veritatis dolorem.</p>
-                    <p class="py-2 para-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non sed accusantium aut dolores inventore architecto modi cupiditate eligendi corporis, illum illo culpa. Reiciendis, molestias. Illum voluptatum quisquam ad veritatis dolorem.</p>
-
+                    <h2>We are top Website <br> Development Company</h2>
+                    <p class="py-2 para-light">WCTS provides software solutions at all layers of the digital spectrum. Founding members carry expert’s level development skills on PHP, ReactJs, NodeJs, Dart, Python, Django,Python Machine Learning, Data Science, Analytics, Deep Leanring, IOT, MVC framework, Java, Android, React Native, Flutter, ExpressJs, MongoDB, Firebase, JavaScripts, Bootstrap, Mysql, SQLite, Microsoft SQL Server and project management.</p>
                     <div class="my-3">
                         <a class="btn" href="#your-link">Learn More</a>
                     </div>
@@ -168,49 +163,49 @@
             <div class="text-center pb-4" >
                 <p>OUR SERVICES</p> 
                 <h2 class="py-2">Explore unlimited possibilities</h2>
-                <p class="para-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae asperiores, quia accusantium sunt corporis optio recusandae? Nostrum libero pariatur cumque, ipsa dolores voluptatibus voluptate alias sit fuga. Itaque, ea quo.</p>
+                <p class="para-light">The main motto of our company is to boost startups and small medium enterprises by customized web applications, consulting and technical support for a multi number of technologies. Our core expertise stays in Python, Django Framework, PHP ReactJs, Laravel, Codeigniter, Nodejs, Expressjs, MongoDB, Firebase Database ,AWS, PostgreSQL, And IT Consulting.</p>
             </div>
             <div class="row gy-4 py-2" data-aos="zoom-in">
                 <div class="col-lg-4">
                     <div class="card bg-transparent">
                         <i class="fas fa-home fa-2x"></i>
-                        <h4 class="py-2">HOME BROADBAND</h4>
-                        <p class="para-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam odit consequatur doloribus natus in suscipit!</p>
+                        <h4 class="py-2">WEB DEVELOPMENT</h4>
+                        <p class="para-light">The main motto of our company is to boost startups and small medium enterprises by customized web applications for a multi.</p>
                     </div>
                 </div>
                 <div class="col-lg-4">
                     <div class="card bg-transparent">
                         <i class="fas fa-wifi fa-2x"></i>
-                        <h4 class="py-2"> HOME WIFI</h4>
-                        <p class="para-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam odit consequatur doloribus natus in suscipit!</p>
+                        <h4 class="py-2">CLOUD HOSTING SERVICES</h4>
+                        <p class="para-light">We provide fast, safe,easily scalable cloud hosting services like Digital Ocean ,Hostinger, AWS and Dedicated Services</p>
                     </div>                    
                 </div>
                 <div class="col-lg-4">
                     <div class="card bg-transparent">
                         <i class="fas fa-phone fa-2x"></i>
-                        <h4 class="py-2">HOME BROADBAND</h4>
-                        <p class="para-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam odit consequatur doloribus natus in suscipit!</p>
+                        <h4 class="py-2">ERP IMPLEMENTATION SERVICES</h4>
+                        <p class="para-light">We do different different modules in ERP System</p>
                     </div>                    
                 </div>
                 <div class="col-lg-4">
                     <div class="card bg-transparent">
                         <i class="fas fa-mobile fa-2x"></i>
-                        <h4 class="py-2">MOBILE CONNECTION</h4>
-                        <p class="para-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam odit consequatur doloribus natus in suscipit!</p>
+                        <h4 class="py-2">MOBILE DEVELOPMENT</h4>
+                        <p class="para-light">We are expertise in mobile applications developement using flutter dart apps, Firebase, MongoDB, AWS, React Native JS</p>
                     </div>                    
                 </div>
                 <div class="col-lg-4">
                     <div class="card bg-transparent">
                         <i class="fas fa-home fa-2x"></i>
-                        <h4 class="py-2">SECURITY</h4>
-                        <p class="para-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam odit consequatur doloribus natus in suscipit!</p>
+                        <h4 class="py-2">MLM SOFTWARE SERVICES</h4>
+                        <p class="para-light">It is a multi feature software.We have good experience to make MLM Software Binary Plan,Matrix Plan etc.</p>
                     </div>                    
                 </div>
                 <div class="col-lg-4">
                     <div class="card bg-transparent">
                         <i class="fas fa-tv fa-2x"></i>
-                        <h4 class="py-2">TV SETUP BOX</h4>
-                        <p class="para-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam odit consequatur doloribus natus in suscipit!</p>
+                        <h4 class="py-2">DIGITAL MARKETING</h4>
+                        <p class="para-light">Be it Digital Strategy and Marketing, Websites, Mobile Applications or the Internet of Things.</p>
                     </div>                    
                 </div>
             </div> <!-- end of row -->
@@ -219,91 +214,46 @@
 
 
     <!-- Plans -->
+   
     <section class="plans d-flex align-items-center py-5" id="plans">
         <div class="container text-light" >
             <div class="text-center pb-4">
                 <p>OUR PLANS</p>
                 <h2 class="py-2">Explore unlimited possibilities</h2>
-                <p class="para-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae asperiores, quia accusantium sunt corporis optio recusandae? Nostrum libero pariatur cumque, ipsa dolores voluptatibus voluptate alias sit fuga. Itaque, ea quo.</p>
+                <p class="para-light">It is a multi feature software.We have good experience to make MLM Software</p>
             </div>
             <div class="row gy-4" data-aos="zoom-in">
                 <div class="col-lg-4">
                     <div class="card bg-transparent px-4">
-                        <h4 class="py-2">BASIC BUNDLE</h4>
-                        <p class="py-3">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <h4 class="py-2">MLM Software Plans</h4>
+                        <p class="py-3">We have good experience to make MLM Software.</p>
                         <div class="block d-flex align-items-center">
                             <p class="pe-2"><i class="far fa-check-circle fa-1x"></i></p>
-                            <p>Lorem ipsum dolor sit amet.</p>
-                        </div>
-                        <div class="block d-flex align-items-center">
-                            <p class="pe-2"><i class="far fa-check-circle fa-1x"></i></p>
-                            <p>Lorem ipsum dolor sit amet.</p>
+                            <p>MLM Binary Plan</p>
                         </div>
                         <div class="block d-flex align-items-center">
                             <p class="pe-2"><i class="far fa-check-circle fa-1x"></i></p>
-                            <p>Lorem ipsum dolor sit amet.</p>
+                            <p>MLM Matrix Plan</p>
                         </div>
                         <div class="block d-flex align-items-center">
                             <p class="pe-2"><i class="far fa-check-circle fa-1x"></i></p>
-                            <p>Lorem ipsum dolor sit amet.</p>
-                        </div>
-                        <h4 class="py-3">$24/Month</h4>
-                        <div class="my-3">
-                            <a class="btn" href="#your-link" >View Plans</a>
-                        </div>
-                    </div>  
-                </div>
-
-                <div class="col-lg-4">
-                    <div class="card bg-transparent px-4">
-                        <h4 class="py-2">BUSINESS BUNDLE</h4>
-                        <p class="py-3">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                        <div class="block d-flex align-items-center">
-                            <p class="pe-2"><i class="far fa-check-circle fa-1x"></i></p>
-                            <p>Lorem ipsum dolor sit amet.</p>
+                            <p>MLM Uni-Level Plan.</p>
                         </div>
                         <div class="block d-flex align-items-center">
                             <p class="pe-2"><i class="far fa-check-circle fa-1x"></i></p>
-                            <p>Lorem ipsum dolor sit amet.</p>
+                            <p>MLM Board Plan.</p>
                         </div>
-                        <div class="block d-flex align-items-center">
+						 <div class="block d-flex align-items-center">
                             <p class="pe-2"><i class="far fa-check-circle fa-1x"></i></p>
-                            <p>Lorem ipsum dolor sit amet.</p>
+                            <p>MLM Generation Plan.</p>
                         </div>
-                        <div class="block d-flex align-items-center">
+						<div class="block d-flex align-items-center">
                             <p class="pe-2"><i class="far fa-check-circle fa-1x"></i></p>
-                            <p>Lorem ipsum dolor sit amet.</p>
+                            <p>MLM Gift Plan.</p>
                         </div>
-                        <h4 class="py-3">$99/Month</h4>
-                        <div class="my-3">
-                            <a class="btn" href="#your-link" >View Plans</a>
-                        </div>
-                    </div>  
-                </div>
-
-                <div class="col-lg-4">
-                    <div class="card bg-transparent px-4" >
-                        <h4 class="py-2">PREMIUM BUNDLE</h4>
-                        <p class="py-3">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                        <div class="block d-flex align-items-center">
+						<div class="block d-flex align-items-center">
                             <p class="pe-2"><i class="far fa-check-circle fa-1x"></i></p>
-                            <p>Lorem ipsum dolor sit amet.</p>
-                        </div>
-                        <div class="block d-flex align-items-center">
-                            <p class="pe-2"><i class="far fa-check-circle fa-1x"></i></p>
-                            <p>Lorem ipsum dolor sit amet.</p>
-                        </div>
-                        <div class="block d-flex align-items-center">
-                            <p class="pe-2"><i class="far fa-check-circle fa-1x"></i></p>
-                            <p>Lorem ipsum dolor sit amet.</p>
-                        </div>
-                        <div class="block d-flex align-items-center">
-                            <p class="pe-2"><i class="far fa-check-circle fa-1x"></i></p>
-                            <p>Lorem ipsum dolor sit amet.</p>
-                        </div>
-                        <h4 class="py-3">$199/Month</h4>
-                        <div class="my-3">
-                            <a class="btn" href="#your-link" >View Plans</a>                    
+                            <p>MLM Party Plan.</p>
                         </div>
                     </div>  
                 </div>
@@ -324,7 +274,8 @@
                         <div class="text-center text-lg-start py-4 pt-lg-0">
                             <p>OUR WORK</p>
                             <h2 class="py-2">Explore unlimited possibilities</h2>
-                            <p class="para-light">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos dicta mollitia totam explicabo obcaecati quia laudantium repudiandae.</p>
+                            <p class="para-light">ECommerce With a rapid growth in e- commerce today, Modern enterprises and online retailers are in need
+of a systematic approach to provide hassle free shopping to customers.</p>
                         </div>
                         <div class="container" data-aos="fade-up">
                             <div class="row g-5">
@@ -466,8 +417,8 @@
         <div class="container">
             <div class="row" >
                 <div class="col-lg-6 text-center text-lg-start" data-aos="fade-right">
-                    <h4 class="py-1">Subscribe to our Newsletter</h4>
-                    <p class="para-light">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor deleniti nobis amet accusamus debitis facilis quibusdam officia laborum nesciunt. Nihil.</p>
+                    <h4 class="py-1">Subscribe to our website</h4>
+                    <p class="para-light">Request You Proposal and Subscribe</p>
                 </div>
                 <div class="col-lg-6 d-flex align-items-center" data-aos="fade-down">
                     <div class="input-group my-3">
@@ -489,7 +440,7 @@
                         <div class="text-center text-lg-start py-4 pt-lg-0">
                             <p>CONTACT</p>
                             <h2 class="py-2">Send your query</h2>
-                            <p class="para-light">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos dicta mollitia totam explicabo obcaecati quia laudantium repudiandae.</p>
+                            <p class="para-light">Write a query to our WebCreintors.</p>
                         </div>
                         <div>
                             <div class="row" >
@@ -532,28 +483,28 @@
                     <div class="p-2"><i class="far fa-map fa-3x"></i></div>
                     <div class="ms-2">
                         <h6>ADDRESS</h6>
-                        <p>Teuku Umar ST. 1919</p>
+                        <p>CTS No 217/7 ,Ganesh Mark ,1st Cross Hindwadi, Belgaum 590011</p>
                     </div>
                 </div>
                 <div class="col-lg-3 d-flex align-items-center" >
                     <div class="p-2"><i class="fas fa-mobile-alt fa-3x"></i></div>
                     <div class="ms-2">
                         <h6>CALL FOR QUERY</h6>
-                        <p>(800) 265  216 2020</p>
+                        <p>+91-7022442379</p>
                     </div>
                 </div>
                 <div class="col-lg-3 d-flex align-items-center" >
                     <div class="p-2"><i class="far fa-envelope fa-3x"></i></div>
                     <div class="ms-2">
                         <h6>SEND US MESSAGE</h6>
-                        <p>infodemofile@example.com</p>
+                        <p>info@webcreintors.com</p>
                     </div>
                 </div>
                 <div class="col-lg-3 d-flex align-items-center" >
                     <div class="p-2"><i class="far fa-clock fa-3x"></i></div>
                     <div class="ms-2">
                         <h6>OPENING HOURS</h6>
-                        <p>09:00 AM - 18:00 PM</p>
+                        <p>09:00 AM - 6:00 PM</p>
                     </div>
                 </div>
             </div> <!-- end of row -->
@@ -567,9 +518,9 @@
             <div class="row" data-aos="fade-right">
                 <div class="col-lg-3 py-4 py-md-5">
                     <div class="d-flex align-items-center">
-                        <h4 class="">Mirko</h4>
+                        <h4 class="">WebCreintors</h4>
                     </div>
-                    <p class="py-3 para-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus animi repudiandae explicabo esse maxime, impedit rem voluptatibus amet error quas.</p>
+                    <p class="py-3 para-light">A digital help desk can effectively perform functions. WebCreintors provide multidimensional help desk resources to gain assistant troubleshooting focusing at the end user and reduces downtime. Web help desk resources in IT services and organizations making them available for maximum time..</p>
                     <div class="d-flex">
                         <div class="me-3">
                             <a href="#your-link">
@@ -638,7 +589,8 @@
                     <div class="d-flex align-items-center">
                         <h4>Newsletter</h4>
                     </div>
-                    <p class="py-3 para-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, ab.</p>
+                    <p class="py-3 para-light">WebCreintors will stand with organization responsibility for administering each phase of implementation so that
+the required activities occur at scheduled time and at the desired level of quality with effective participation of responsibility.</p>
                     <div class="d-flex align-items-center">
                         <div class="input-group mb-3">
                             <input type="text" class="form-control p-2" placeholder="Enter Email" aria-label="Recipient's email">
@@ -655,8 +607,8 @@
     <div class="bottom py-2 text-light" >
         <div class="container d-flex justify-content-between">
             <div>
-                <p>Copyright © Your name</p><br>
-                <p>Distributed by: <a href="https://themewagon.com/">Themewagon</a></p>
+                <p>Copyright © Soundarya Badasad</p><br>
+                <p>Distributed by: <a href="https://themewagon.com/">WebCreintors</a></p>
             </div>
             <div>
                 <i class="fab fa-cc-visa fa-lg p-1"></i>
